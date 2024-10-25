@@ -1,0 +1,52 @@
+header {
+    
+    background-color: rgb(1, 1, 77);
+
+    .mainNav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        position: fixed;
+        background-color:rgb(1, 1, 77) ;
+
+        .dropdownButton {
+            display: none;
+            background-color: rgb(1, 1, 77); // Plava boja pozadine
+            color: white; // Bele slova
+            border: none; // Bez ivice
+            padding: 10px 15px; // Unutrašnje margine
+            font-size: 16px; // Veličina fonta
+        }
+
+        .destkopNav {
+            display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    @media only screen and (max-width: 768px){ // Granica za mobilne uređaje
+        .dropdownButton {
+            display: block !important; // Prikazuj dugme na mobilnim uređajima
+        }
+            .destkopNav {
+                display: none !important; // Sakrij desktop navigaciju na mobilnim uređajima
+            }
+
+        .mainNav {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+    }
+
+}
+
+
+

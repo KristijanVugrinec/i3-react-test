@@ -1,0 +1,64 @@
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+        .imageWrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .imageContainer {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .mobileDiv {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        button {
+            height: 50px;
+            background-color: transparent;
+        }
+
+        p {
+            color: aquamarine;
+            font-weight: bold;
+            width: 200px;
+            font-size: 1.3em;
+        }
+
+        .imageAndDescr {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+}
+
+@media only screen and (max-width: 768px) {
+    .mainDiv {
+        flex-direction: row; // Promenite pravac na vertikalni
+        justify-content: center;
+    }
+
+    .imageWrapper {
+        width: 100%; // Širina wrappera
+        overflow: hidden; // Sakrijte višak sadržaja
+    }
+}

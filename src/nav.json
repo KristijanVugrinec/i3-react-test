@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title": "2020 Annual Report",
+        "mobileTitle": "Annual Report Home",
+        "href": "/"
+    },
+    {
+        "id":2,
+        "title": "Financial Highlight",
+        "mobileTitle": "Financial Highlight",
+        "href": "/highlight"
+    },
+    {
+        "id":3,
+        "title": "Letter to Shareowners",
+        "mobileTitle": "Letter to Shareowners",
+        "href": "/letter"
+    },
+    {
+        "id":4,
+        "title": "Downloads",
+        "mobileTitle": "Downloads",
+        "href": "/download"
+    }
+]
